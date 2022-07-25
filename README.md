@@ -25,3 +25,31 @@ Eksplorasi yang dilakukan berupa:
   <li>Plot Hubungan Suhu dan Kelembapan Stasiun Temindung</li>
   <li>Cross Correlation</li>
  </ol>
+
+# Time Series Data Analysis
+Data yang digunakan merupakan data suhu rata-rata harian di Stasiun Meteorologi Temindung, Kalimantan Timur (periode 31 Mei 2021–28 Mei 2022). Data dibagi menjadi data training dan data testing dengan pembagian sebagai berikut:
+
+Data Training : 31 Mei 2021–23 April 2022 <br>
+Data Testing  : 24 April 2022–29 Mei 2022
+
+Tujuan dari analisis ini adalah untuk mendapatkan model peramalan suhu harian terbaik. Analisis dilakukan menggunakan bahasa pemrograman R dengan package yang dibutuhkan yaitu sebagai berikut:
+<ol>
+  <li>tseries</li>
+  <li>forecast</li>
+  <li>lmtest</li>
+  <li>car</li>
+  <li>readxl</li>
+  <li>ggplot2</li>
+</ol>
+
+Peramalan suhu harian dilakukan dengan metode ARIMA (Autoregressive Moving Average) dengan prosedur analisis sebagai berikut:
+<ol>
+  <li>Input data</li>
+  <li>Pembagian data training dan testing</li>
+  <li>Eksplorasi data : Uji kestasioneran</li>
+  <li>Identifikasi model ARIMA</li>
+  <li>Pendugaan parameter</li>
+  <li>Uji diagnostik model awal</li>
+  <li>Overfitting model</li>
+  <li>Peramalan</li>
+</ol>
