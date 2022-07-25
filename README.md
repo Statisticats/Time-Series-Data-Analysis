@@ -1,5 +1,5 @@
 # Time Series Data Exploration dan Analysis 
-BMKG menyatakan bahwa suhu rata-rata maupun anomali suhu tahunan Indonesia cenderung meningkat. Laju peningkatan suhu udara tertinggi tercatat di Stasiun Meteorologi Temindung, Kalimantan Timur, 0.95°C per dekade. Dalam repository ini, dilakukan analisis dan eksplorasi pada data suhu udara rata-rata dari Stasiun Temindung periode 31 Mei 2021 – 29 Mei 2022. Data diambil dari web Pusat Database BMKG. Eksplorasi data time series dilakukan menggunakan Python
+BMKG menyatakan bahwa suhu rata-rata maupun anomali suhu tahunan Indonesia cenderung meningkat. Laju peningkatan suhu udara tertinggi tercatat di Stasiun Meteorologi Temindung, Kalimantan Timur, 0.95°C per dekade. Dalam repository ini, dilakukan analisis dan eksplorasi pada data suhu udara rata-rata dari Stasiun Temindung periode 31 Mei 2021 – 29 Mei 2022. Data diambil dari web Pusat Database BMKG (<a href="dataonline.bmkg.go.id">dataonline.bmkg.go.id</a>). Eksplorasi data time series dilakukan menggunakan Python
 
 # Time Series Data Exploration
 Eksplorasi data time series dilakukan menggunakan Python, dengan package yang digunakan yaitu sebagai berikut:
@@ -53,3 +53,15 @@ Peramalan suhu harian dilakukan dengan metode ARIMA (Autoregressive Moving Avera
   <li>Overfitting model</li>
   <li>Peramalan</li>
 </ol>
+
+## Find more
+Instagram : <a href="https://www.instagram.com/statisticats.co">statisticats.co</a> <br>
+Medium    : <a href="https://medium.com/@statisticats">Statisticats</a>
+
+## Contributors
+<ul>
+  <li>Aisyah Fadila          : <a href="https://github.com/Aisyahfdl14">@AisyahFdl14</a></li> 
+  <li>Nindi Pigitha          : <a href="https://github.com/pigithanindi">@pigithanindi</a></li>
+  <li>Tiara Lutfiah Adisti   : <a href="https://github.com/adisti24">@adisti24</a></li>
+</ul>
+
